@@ -1,3 +1,3 @@
-chrome.crx
-chrome.pem
+*.crx
+*.pem
 *.zip
