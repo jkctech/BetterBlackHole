@@ -11,7 +11,7 @@ chrome.webRequest.onCompleted.addListener(
 
 	// filters
 	{
-		urls: ["*://profile.intra.42.fr/users/me/goals?*"],
+		urls: ["*://profile.intra.42.fr/users/*/goals?*"],
 		types: ["xmlhttprequest"]
 	},
 

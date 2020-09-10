@@ -1,6 +1,6 @@
 {
 	"name": "Better Black Hole (42 Intra)",
-	"version": "1.0",
+	"version": "1.0.0.1",
 	"description": "Display the 42 Intra Black Hole in a less stressing way, making it a more wholesome experience.",
 	"author": "Jeffrey Koopman",
 	"manifest_version": 2,
@@ -8,9 +8,14 @@
 		"webRequest",
 		"*://profile.intra.42.fr/*"
 	],
+	"icons": {
+		"16": "icon_16.png",
+		"48": "icon_48.png",
+		"128": "icon_128.png"
+	},
 	"content_scripts": [
 		{
-			"matches": ["*://profile.intra.42.fr/*"],
+			"matches": ["*://profile.intra.42.fr/", "*://profile.intra.42.fr/users/*"],
 			"run_at": "document_start",
 			"js": ["bbh.js"],
 			"css": ["bbh.css"]

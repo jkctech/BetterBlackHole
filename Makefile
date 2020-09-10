@@ -6,11 +6,9 @@
 #    By: JKCTech <admin@jkctech.nl>                   +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/09/10 15:00:09 by JKCTech       #+#    #+#                  #
-#    Updated: 2020/09/10 15:39:40 by JKCTech       ########   odam.nl          #
+#    Updated: 2020/09/10 18:37:13 by JKCTech       ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
-
-NAME = BetterBlackHole
 
 CHROMEFILES = chrome/bbh.css \
 				chrome/bbh.js \
@@ -31,4 +29,4 @@ clean:
 
 re: clean all
 
-.PHONY: all chrome BetterBlackHole clean
+.PHONY: all chrome clean
