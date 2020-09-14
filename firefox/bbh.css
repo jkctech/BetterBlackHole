@@ -1,0 +1,4 @@
+/* JS isn't always the fastest, so we hide the emoticon on forehand by CSS */
+#bh {
+	display: none;
+}
