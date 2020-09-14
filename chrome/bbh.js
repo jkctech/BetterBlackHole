@@ -16,7 +16,7 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 		bhtitles[1].firstElementChild.innerHTML += ' - <a href="#" id="bhtoggle">Show</a>';
 
 		// Add eventlistener for show / hide
-		document.getElementById("bhtoggle").addEventListener("click", function() {
+		document.getElementById("bhtoggle").addEventListener("click", event => {
 			switch (event.target.innerText)
 			{
 				case "Show":
