@@ -6,7 +6,7 @@
 #    By: JKCTech <admin@jkctech.nl>                   +#+                      #
 #                                                    +#+                       #
 #    Created: 2020/09/10 15:00:09 by JKCTech       #+#    #+#                  #
-#    Updated: 2020/09/14 09:50:52 by JKCTech       ########   odam.nl          #
+#    Updated: 2020/09/14 20:36:35 by JKCTech       ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,10 @@ CHROMEFILES = chrome/bbh.css \
 FIREFOXFILES = firefox/bbh.css \
 				firefox/bbh.js \
 				firefox/bbh_bg.js \
-				firefox/manifest.json
+				firefox/manifest.json \
+				firefox/icon_16.png \
+				firefox/icon_48.png \
+				firefox/icon_128.png
 
 all: chrome firefox
 
