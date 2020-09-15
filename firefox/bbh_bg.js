@@ -4,9 +4,7 @@
 browser.webRequest.onCompleted.addListener(
 	// Callback
 	function(info) {
-		chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-			chrome.tabs.sendMessage(tabs[0].id, {greeting: "bhupdate"});
-		});
+		browser.tabs.sendMessage(info.tabId, {greeting: "bhupdate"});
 	},
 
 	// filters

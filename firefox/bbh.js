@@ -1,6 +1,6 @@
 // Listen for message from the background page that actually indicates that
 // the API request has been completed on the client side so we can run the code.
-chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
+browser.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 	if (request.greeting == "bhupdate")
 	{
 		var emote = document.getElementsByClassName("emote-bh")[0];
