@@ -14,7 +14,7 @@ Instructions on how to install this extension locally using the actual sourcefil
 [Chrome](https://technoresult.com/how-to-install-chrome-extension-package-manually/#:~:text=chrome%3A%2F%2Fextensions%2F,and%20click%20on%20Add%20extension.) - [Firefox](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#:~:text=Installing,stay%20until%20you%20restart%20Firefox.)
 
 ## What does it look like?
-As we all know, the current way of displaying your Black Hole date is with a colored emote. This can be perticularly demotivating when you see it moving from green... to orange... to red...
+As we all know, the current way of displaying your Black Hole date is with a colored emote. This can be particularly demotivating when you see it moving from green... to orange... to red...
 
 When you install this browser extension, all user profiles will be populated a better way of displaying the Black Hole date.
 ![New Black Hole](_assets/screenshot_after_1.png "Better Black Hole")
@@ -25,6 +25,4 @@ The new way of displaying also comes with a clickable "Show" / "Hide" link, that
 ![New Black Hole Shown Emote](_assets/screenshot_after_2.png "Better Black Hole but with shown emote")
 
 ## Planned features
- - Adding settings to enable / disable the show / hide link.
- - Adding setting for the motivational message.
- - Randomized motivational messages.
+None, all of them have been finished :)
