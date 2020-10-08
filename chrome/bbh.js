@@ -6,13 +6,14 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 		var emote = document.getElementsByClassName("emote-bh")[0];
 		var bhdate = emote.getAttribute("data-original-title");
 		var bhtitles = document.getElementsByClassName("blackhole-title");
+		var messList = ["\nYou can do it! ❤️", "\nYou are strong! 💪"]; 
 
 		// Remove hover date
 		emote.setAttribute("data-original-title", "");
 
 		// Change titles, message and add the toggle button
 		bhtitles[0].firstElementChild.innerText = bhdate;
-		bhtitles[1].firstElementChild.innerText += '\n' + "You can do it! ❤️";
+		bhtitles[1].firstElementChild.innerText += messList[Math.floor(Math.random() * messList.length)]; 
 		bhtitles[1].firstElementChild.innerHTML += ' - <a href="#" id="bhtoggle">Show</a>';
 
 		// Add eventlistener for show / hide
@@ -31,3 +32,4 @@ chrome.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 		});
 	}
 });
+
