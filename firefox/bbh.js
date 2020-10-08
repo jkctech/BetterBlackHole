@@ -8,7 +8,6 @@ browser.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 		var bhtitles = document.getElementsByClassName("blackhole-title");
 		var messList = ["\nYou can do it! ❤️", "\nYou are strong! 💪"]; 
 
-
 		// Remove hover date
 		emote.setAttribute("data-original-title", "");
 
@@ -33,3 +32,4 @@ browser.runtime.onMessage.addListener( function(request, sender, sendResponse) {
 		});
 	}
 });
+
