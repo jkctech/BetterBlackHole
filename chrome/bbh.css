@@ -2,3 +2,43 @@
 #bh {
 	display: none;
 }
+
+.bbh-element {
+	text-align: center;
+}
+
+.bbh-element #bbh-toggle {
+	user-select: none;
+	cursor: pointer;
+}
+
+#bbh-quote {
+	font-size: 1.5em;
+}
+
+.bbh-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,.5);
+	z-index: 999;
+}
+
+.bbh-modal .bbh-modal-content {
+	max-width: 100%;
+	width: 40rem;
+	background-color: white;
+	border-radius: 5px;
+	padding: 2.5rem;
+}
+
+.bbh-modal .bbh-modal-content h1 {
+	font-weight: bold;
+	font-size: 3rem;
+	margin-top: 0;
+}

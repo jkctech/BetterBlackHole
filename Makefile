@@ -13,6 +13,9 @@
 CHROMEFILES = chrome/bbh.css \
 				chrome/bbh.js \
 				chrome/bbh_bg.js \
+				chrome/modal.js \
+				chrome/quote.js \
+				chrome/settings.js \
 				chrome/manifest.json \
 				chrome/icon_16.png \
 				chrome/icon_48.png \
@@ -20,7 +23,9 @@ CHROMEFILES = chrome/bbh.css \
 
 FIREFOXFILES = firefox/bbh.css \
 				firefox/bbh.js \
-				firefox/bbh_bg.js \
+				firefox/modal.js \
+				firefox/quote.js \
+				firefox/settings.js \
 				firefox/manifest.json \
 				firefox/icon_16.png \
 				firefox/icon_48.png \
